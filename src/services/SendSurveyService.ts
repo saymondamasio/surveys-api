@@ -43,7 +43,7 @@ export class SendSurveyService {
     }
 
     const surveyUserAlreadyExists = await surveysUsersRepository.findOne({
-      where: [{ user_id: user.id }, { value: null }],
+      where: { user_id: user.id, value: null },
       relations: ['survey', 'user'],
     })
 
@@ -57,7 +57,7 @@ export class SendSurveyService {
           title: survey.title,
           description: survey.description,
           link: process.env.APP_URL,
-          user_id: user.id,
+          id: surveyUserAlreadyExists.id,
         },
       })
 
@@ -80,7 +80,7 @@ export class SendSurveyService {
         title: survey.title,
         description: survey.description,
         link: process.env.APP_URL,
-        user_id: user.id,
+        id: surveyUser.id,
       },
     })
 
