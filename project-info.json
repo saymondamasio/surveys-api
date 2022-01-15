@@ -1,0 +1,47 @@
+{
+  "name": "Surveys",
+  "description": "Essa API tem como objetivo calcular o NPS da empresa. Na aplicação criamos o cadastro de usuário, cadastro de pesquisas, envio de email para os usuário responderem as pesquisas de satisfação e com esses dados o calculo do NPS.",
+  "short_description": "Uma aplicação para calcular o NPS da empresa",
+  "techs": [
+    {
+      "name": "Node.js",
+      "url": "https://nodejs.org/"
+    },
+    {
+      "name": "Typescript",
+      "url": "https://www.typescriptlang.org/"
+    },
+    {
+      "name": "Express.js",
+      "url": "https://expressjs.com/"
+    },
+    {
+      "name": "SQLite",
+      "url": "https://www.sqlite.org/"
+    },
+    {
+      "name": "TypeORM",
+      "url": "https://typeorm.io/#/"
+    },
+    {
+      "name": "Nodemailer",
+      "url": "https://nodemailer.com/"
+    },
+    {
+      "name": "Handlebars",
+      "url": "https://handlebarsjs.com/"
+    },
+    {
+      "name": "Jest",
+      "url": "https://jestjs.io/"
+    },
+    {
+      "name": "Eslint",
+      "url": "https://eslint.org/"
+    },
+    {
+      "name": "Prettier",
+      "url": "https://prettier.io/"
+    }
+  ]
+}
