@@ -1,7 +1,8 @@
 {
   "env": {
     "es2021": true,
-    "node": true
+    "node": true,
+    "jest": true
   },
   "extends": [
     "standard",
@@ -51,7 +52,7 @@
     ],
     "import/no-extraneous-dependencies": [
       "error",
-      { "devDependencies": ["**/*.spec.js"] }
+      { "devDependencies": ["**/*.spec.ts", "**/*.test.ts"] }
     ]
   }
 }
