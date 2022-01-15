@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "tsnd --transpile-only --ignore-watch node_modules src/server.ts",
     "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js",
-    "test": "jest",
-    "posttest": "rm ./src/database/database.test.sqlite"
+    "test": "jest -i"
   },
   "devDependencies": {
     "@types/express": "^4.17.13",
@@ -38,6 +37,7 @@
     "nodemailer": "^6.7.2",
     "reflect-metadata": "^0.1.13",
     "sqlite3": "^5.0.2",
-    "typeorm": "^0.2.41"
+    "typeorm": "^0.2.41",
+    "yup": "^0.32.11"
   }
 }
